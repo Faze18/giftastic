@@ -32,7 +32,8 @@ img{
 }
 body{
     background-image: url("jordanDunk3.gif");
-
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 @media (max-width: 800px){
