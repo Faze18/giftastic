@@ -70,7 +70,7 @@ $( document ).on( "click",".buttons", function () {
             gifImage.attr("class" ,"gif");
             gifImage.attr("data-state", "still");
             var gifHolder = $("<div>");//test
-            gifHolder.attr("class","col-lg-7 holder");//test
+            gifHolder.attr("class","col-lg-8 col-md-8 col-sm-12 col-xs-12 holder");//test
             // gifHolder.attr("class" ,"gif");
             gifHolder.html(gifImage);//test
             gifHolder.attr("data-state", "still");
